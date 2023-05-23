@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./Login";
-import Signup from "./Signup";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
+import Add_activity from "./components/Add_activity";
+import Edit_Activity from "./components/Edit_activity";
+import Activitylog from "./components/Activitylog"
+import Card from "./components/Card"
 import "bootstrap/dist/css/bootstrap.min.css";
-import Add_activity from "./Add_activity";
-import Edit_Activity from "./Edit_activity";
-import Activitylog from "./Activitylog";
-import Card from "./Card";
 
 export default function App() {
   return (

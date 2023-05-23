@@ -1,0 +1,38 @@
+.form_container {
+    width: 30%;
+}
+
+@media screen and (max-width: 1000px) {
+    .form_container {
+        width: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .form_container {
+        width: 65%;
+    }
+    
+}
+.left{
+    float: right    ;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    background-color: yellow;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-container {
+    display: flex;
+    padding: 20px;
+    
+}
